@@ -1,0 +1,10 @@
+print("enter a number")
+num1 = input("enter a number")
+
+count = 1
+while count <= int(num1):
+    print(count)
+    count += 1
+
+for count in range(int(num1),0,-1):
+    print (count)
